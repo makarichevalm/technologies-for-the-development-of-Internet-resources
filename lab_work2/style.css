@@ -1,0 +1,53 @@
+/*
+Макаричева Елизавета, 20ВП1, Вариант 18
+*/
+body{background-color: darkslategrey;}
+
+div{
+    font-size: 30pt;
+    text-align: justify;
+}
+
+img{
+    float: left;
+    margin: 40px 80px 40px 0;
+}
+
+.name{
+    text-align: center;
+    color: pink;
+    font-size: 50pt;
+}
+
+.spisok{
+   list-style-type: square;
+   list-style-position: outside;
+   color: black;
+   font-size: 30pt;
+   text-align: justify;
+}
+
+#FirstWord{
+    font-size: 35pt;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#ListName{
+    font-size: 35pt;
+    color: red;
+    text-align: center;
+    line-height: 60pt;
+}
+
+#SecondWord{
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 30pt;
+    text-align: justify;
+}
+
+
+
+
+
