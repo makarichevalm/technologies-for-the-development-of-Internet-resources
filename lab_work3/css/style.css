@@ -1,0 +1,29 @@
+/*
+Макаричева Елизавета, 20ВП1, 18 вариант
+*/
+body {background-color: rgb(111, 139, 224) /*cornflowerblue*/;}
+
+h1{
+    font-style: italic;
+    font-size: 40pt;
+    font-weight: bold;
+    color: navy /*darkblue*/;
+    text-align: center;
+}
+
+div,p{
+    color: darkblue;
+    text-align: justify;
+    font-size: 20pt;
+}
+
+tr{
+    background-color: white;
+}
+
+th{
+    background: lightblue;
+}
+table{
+    margin: auto;
+}
