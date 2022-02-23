@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!--
+Макаричева Елизавета, 20ВП1, Вариант 18
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <title>Тест "Состав и масштабы Солнечной системы"</title>
+    </head>
+    <body>
+        <h1>Предмет «Астрономия». Тестирование по теме «Состав и масштабы 
+        Солнечной системы».</h1>
+        <div id="text">На данном сайте Вам предлагается пройти небольшой тест для проверки
+        знаний. Перед началом тестирования необходимо установить в поле с помощью стрелок время в минутах, 
+        за которое Вы сможете пройти тест. По истечении времени тест завершится.</div>
+         <p id="num">Таймер:
+             <input type="number" id="number" min="1" max="30" step="1" value="1" onkeydown="return false" 
+                       placeholder="Введите время">
+        </p>
+        <p><button id="start" class='start' onclick="show()">Начать</button></p>
+        <div id="timer" class="timer"></div>
+
+        <div id="showf">
+            <!--<input type="checkbox" id="check">Показать всплывающие подсказки-->
+        <form name="mytest">
+            
+            <p>В честь римской богини любви и красоты была названа планета:<br>
+            <input type="radio" name="q1" value="Сатурн"><span>Сатурн</span><br>
+            <input type="radio" name="q1" value="Венера"><span>Венера</span><br><!---->
+            <input type="radio" name="q1" value="Земля"><span>Земля</span><br>
+            <input type="radio" name="q1" value="Уран"><span>Уран</span></p>
+            <hr>
+            
+            <p>Выберите из списка правильный ответ<br>Планета Марс названа в честь:<br>
+            <select id="q2">
+                <option disabled selected value id="opt2">Выберите...</option>
+                <option value="древнеримского бога богатства">древнеримского бога богатства</option>
+                <option value="древнеримского бога войны">древнеримского бога войны</option><!---->
+                <option value="древнеримского бога морей и землетрясений">древнеримского бога морей и землетрясений</option>
+                <option value="древнеримского бога торговли">древнеримского бога торговли</option>
+            </select></p>
+            <hr>
+            
+            <p>Сколько планет в Солнечной системе:<br>(В ответе укажите число)<br>
+                <input id="q3" data-toggle="tooltip" title="Укажите число" autocomplete="off" ></p>
+            <hr>
+            
+            <p>Выберите из списка планеты-карлики:<br>
+            <input type="checkbox" name="q4" value="Венера" />Венера<br />
+            <input type="checkbox" name="q4" value="Плутон" />Плутон<br /><!---->
+            <input type="checkbox" name="q4" value="Эрида" />Эрида<br /><!---->
+            <input type="checkbox" name="q4" value="Земля" />Земля<br /></p>
+            <hr>
+            
+            <p>Планетами-«близнецами» являются:<br>
+            <input type="radio" name="q5" value="Уран и Плутон"><span>Уран и Плутон</span><br>
+            <input type="radio" name="q5" value="Нептун и Плутон"><span>Нептун и Плутон</span><br>
+            <input type="radio" name="q5" value="Сатурн и Уран"><span>Сатурн и Уран</span><br>
+            <input type="radio" name="q5" value="Уран и Нептун"><span>Уран и Нептун</span></p><!---->
+            <hr>
+            
+            <p>Отметьте планеты, у которых есть кольца:<br>
+            <input type="checkbox" name="q6" value="Сатурн"><span>Сатурн</span><br><!---->
+            <input type="checkbox" name="q6" value="Марс"><span>Марс</span><br>
+            <input type="checkbox" name="q6" value="Юпитер"><span>Юпитер</span><br><!---->
+            <input type="checkbox" name="q6" value="Нептун"><span>Нептун</span></p>
+            <hr>
+            
+            <p>Солнце - это<br>
+            <input id="q7" autocomplete="off"></p>
+            <hr>
+            
+            <p>Выберите из списка правильный ответ<br>Самая большая планета Солнечной системы — это<br>
+            <select id="q8">
+                <option disabled selected value id="opt1">Выберите...</option>
+                <option value="Юпитер">Юпитер</option><!---->
+                <option value="Сатурн">Сатурн</option>
+                <option value="Земля">Земля</option>
+                <option value="Уран">Уран</option>
+            </select><p>
+            <hr>
+            
+            <input type="button"  id="prov" value ="Проверить" onclick="check() ">
+        </form>
+        </div>
+        <div id="result"></div>
+        <script src="js/jquery-3.6.0.min.js" type="text/javascript"></script>
+        <script src="js/functions.js"></script>
+    </body>
+</html>

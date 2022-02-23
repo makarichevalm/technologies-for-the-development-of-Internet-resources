@@ -1,0 +1,63 @@
+/*
+Макаричева Елизавета, 20ВП1, Вариант 18
+*/
+h1{
+    text-align: center;
+    color: indigo;
+}
+
+#text{
+    color: indigo;
+    text-align: justify;
+    font-size: 20px;
+    display: block;
+}
+
+#showf{
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.table_yes{
+    background-color:  palegreen;
+}
+
+.table_no{
+    background-color: pink;
+}
+
+.start{
+    display: block;
+}
+
+#num{
+    display: block;
+}
+
+.table{
+    border: 1px solid black;
+    width: 500px;
+    align-content: center;
+}
+
+#otv{
+    font-size: 15pt;
+    font-weight: normal;
+    color: indigo;
+    text-align: justify;
+}    
+#timestyle{
+    font-size: 15pt;
+    font-weight: normal;
+    color: indigo;
+}
+
+td{
+    border: 1px solid black;
+    width: 300px;
+    align-content: center;
+}
+body{
+    background: radial-gradient(white,lavender)
+}
