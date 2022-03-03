@@ -38,4 +38,4 @@
 
 Вывод результатов прохождения:
 
-<img src="https://user-images.githubusercontent.com/62702062/156130071-e9a55a8d-5044-438a-b53f-fa017a25c125.png" width="750">
+<img src="https://user-images.githubusercontent.com/62702062/156522378-b08184e9-12c3-401c-b6fa-182136894923.png" width="750">
